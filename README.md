@@ -13,37 +13,37 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 ### Oversampling RandomOverSampler algorithm.
 
-#### Accuracy score for the model.
+<p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/2.PNG" /></p>
 
-####  Confusion matrix algorithm.
+<p align="center">Confusion matrix algorithm.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/3.PNG" /></p>
 
-#### An imbalanced classification report. 
+<p align="center">Imbalanced classification report.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/4.PNG" /></p>
 
 
 
 ### Oversampling SMOTE 
 
-#### Accuracy score for the model.
+<p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/5.PNG" /></p>
 
-####  Confusion matrix.
+<p align="center">Confusion matrix algorithm.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/6.PNG" /></p>
 
-#### An imbalanced classification report. 
+<p align="center">Imbalanced classification report.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/7.PNG" /></p>
 
 
 
 ### Undersampling ClusterCentroids algorithm.
 
-#### Accuracy score for the model.
+<p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/8.PNG" /></p>
 
-####  Confusion matrix.
+<p align="center">Confusion matrix algorithm.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/9.PNG" /></p>
 
-#### An imbalanced classification report. 
+<p align="center">Imbalanced classification report.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/10.PNG" /></p>
