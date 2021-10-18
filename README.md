@@ -23,6 +23,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/4.PNG" /></p>
 
 
+
 ### Oversampling SMOTE 
 
 #### Accuracy score for the model.
@@ -33,6 +34,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 #### An imbalanced classification report. 
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/7.PNG" /></p>
+
 
 
 ### Undersampling ClusterCentroids algorithm.
