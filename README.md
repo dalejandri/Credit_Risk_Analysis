@@ -24,7 +24,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 - Recall score is 67% (sensitivity). 
 - 67% low-risk are correctly predicted by the oversampling RandomOverSampler with a F1 score of 80%.
 
-#### Avg/F1 score of 80% (Marmonic Mean).
+#### Avg/F1 score of 80% (Harmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/2.PNG" /></p>
@@ -50,7 +50,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 - Recall score is 64% (sensitivity). 
 - 64% low-risk are correctly predicted by the oversampling RandomOverSampler with a F1 score of 78%.
 
-#### Avg/F1 score of 78% (Marmonic Mean).
+#### Avg/F1 score of 78% (Harmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/5.PNG" /></p>
@@ -76,7 +76,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 - Recall score is 45% (sensitivity). 
 - 64% low-risk are correctly predicted by the Undersampling ClusterCentroids algorithm with a F1 score of 62%.
 
-#### Avg/F1 score of 62% (Marmonic Mean).
+#### Avg/F1 score of 62% (Harmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/8.PNG" /></p>
@@ -103,7 +103,7 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 - Recall score is 57% (sensitivity). 
 - 57% low-risk are correctly predicted by the SMOTEENN algorithm with a F1 score of 73%.
 
-#### Avg/F1 score of 72% (Marmonic Mean).
+#### Avg/F1 score of 72% (Harmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/11.PNG" /></p>
@@ -119,4 +119,53 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 Compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model.
 
+### The BalancedRandomForestClassifier algorithm
+- The balanced accuracy score is 78%.
 
+#### For high-risk:
+- Precision score is 4% (Positive Predictive value PPV).
+- Recall score is 67% (sensitivity). 
+- 67% high-risk cases are correctly predicted by the BalancedRandomForestClassifier algorithm with a F1 score of 7%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 91% (sensitivity). 
+- 91% low-risk are correctly predicted by the BalancedRandomForestClassifier algorithm with a F1 score of 95%.
+
+#### Avg/F1 score of 95% (Harmonic Mean).
+
+<p align="center">Accuracy score for the model.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/14.PNG" /></p>
+
+<p align="center">Confusion matrix algorithm.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/15.PNG" /></p>
+
+<p align="center">Imbalanced classification report.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/16.PNG" /></p>
+
+<p align="center">Features sorted in descending order by feature importance.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/17.PNG" /></p>
+
+
+### The EasyEnsembleClassifier algorithm.
+- The balanced accuracy score is 92%.
+
+#### For high-risk:
+- Precision score is 7% (Positive Predictive value PPV).
+- Recall score is 91% (sensitivity). 
+- 91% high-risk cases are correctly predicted by the BalancedRandomForestClassifier algorithm with a F1 score of 14%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 94% (sensitivity). 
+- 94% low-risk are correctly predicted by the BalancedRandomForestClassifier algorithm with a F1 score of 97%.
+
+#### Avg/F1 score of 97% (Harmonic Mean).
+<p align="center">Accuracy score for the model.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/18.PNG" /></p>
+
+<p align="center">Confusion matrix algorithm.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/19.PNG" /></p>
+
+<p align="center">Imbalanced classification report.</p>
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/20.PNG" /></p>
