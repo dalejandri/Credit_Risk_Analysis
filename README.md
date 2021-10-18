@@ -115,4 +115,8 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/13.PNG" /></p>
 
 
+### Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+
+Compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model.
+
 
