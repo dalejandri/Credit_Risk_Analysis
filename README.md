@@ -8,4 +8,40 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ### Deliverable 1: Use Resampling Models to Predict Credit Risk
 
-Using  imbalanced-learn and scikit-learn libraries, evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. First, use the oversampling RandomOverSampler and SMOTE algorithms, and then use the undersampling ClusterCentroids algorithm. Using these algorithms, resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+Using imbalanced-learn and scikit-learn libraries, evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. First, use the oversampling RandomOverSampler and SMOTE algorithms, and then use the undersampling ClusterCentroids algorithm. Using these algorithms, resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
+
+
+### Oversampling RandomOverSampler algorithm.
+
+#### Accuracy score for the model.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/2.PNG" /></p>
+
+####  Confusion matrix algorithm.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/3.PNG" /></p>
+
+#### An imbalanced classification report. 
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/4.PNG" /></p>
+
+
+### Oversampling SMOTE 
+
+#### Accuracy score for the model.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/5.PNG" /></p>
+
+####  Confusion matrix.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/6.PNG" /></p>
+
+#### An imbalanced classification report. 
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/7.PNG" /></p>
+
+
+### Undersampling ClusterCentroids algorithm.
+
+#### Accuracy score for the model.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/8.PNG" /></p>
+
+####  Confusion matrix.
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/9.PNG" /></p>
+
+#### An imbalanced classification report. 
+<p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/10.PNG" /></p>
