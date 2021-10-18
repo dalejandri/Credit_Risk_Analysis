@@ -169,3 +169,6 @@ Compare two different ensemble classifiers, BalancedRandomForestClassifier and E
 
 <p align="center">Imbalanced classification report.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/20.PNG" /></p>
+
+### Summary
+The Easy Ensemble AdaBoost Classifier was better fitted to predict credit scores for this dataset, this is probably to the diffence on the small number of hight risk vs. low risk. EasyEnsembleClassifier has the highest accuracy score, precision score, recall score and F1 score overall.
