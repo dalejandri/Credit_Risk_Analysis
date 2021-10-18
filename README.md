@@ -12,6 +12,19 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 
 ### Oversampling RandomOverSampler algorithm.
+- The balanced accuracy score is 66%.
+
+#### For high-risk:
+- Precision score is 1% (Positive Predictive value PPV).
+- Recall score is 66% (sensitivity). 
+- 66% high-risk cases are correctly predicted by the oversampling RandomOverSampler with a F1 score of 2%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 67% (sensitivity). 
+- 67% low-risk are correctly predicted by the oversampling RandomOverSampler with a F1 score of 80%.
+
+#### Avg/F1 score of 80% (Marmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/2.PNG" /></p>
@@ -25,6 +38,19 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 
 ### Oversampling SMOTE 
+- The balanced accuracy score is 63%.
+
+#### For high-risk:
+- Precision score is 1% (Positive Predictive value PPV).
+- Recall score is 62% (sensitivity). 
+- 62% high-risk cases are correctly predicted by the oversampling SMOTE with a F1 score of 2%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 64% (sensitivity). 
+- 64% low-risk are correctly predicted by the oversampling RandomOverSampler with a F1 score of 78%.
+
+#### Avg/F1 score of 78% (Marmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/5.PNG" /></p>
@@ -38,6 +64,19 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 
 
 ### Undersampling ClusterCentroids algorithm.
+- The balanced accuracy score is 52%.
+
+#### For high-risk:
+- Precision score is 1% (Positive Predictive value PPV).
+- Recall score is 61% (sensitivity). 
+- 61% high-risk cases are correctly predicted by the Undersampling ClusterCentroids algorithm with a F1 score of 1%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 45% (sensitivity). 
+- 64% low-risk are correctly predicted by the Undersampling ClusterCentroids algorithm with a F1 score of 62%.
+
+#### Avg/F1 score of 62% (Marmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/8.PNG" /></p>
@@ -52,6 +91,19 @@ Using imbalanced-learn and scikit-learn libraries, evaluate three machine learni
 ### Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 
 ### The combinatorial SMOTEENN algorithm.
+- The balanced accuracy score is 63%.
+
+#### For high-risk:
+- Precision score is 1% (Positive Predictive value PPV).
+- Recall score is 70% (sensitivity). 
+- 70% high-risk cases are correctly predicted by the SMOTEENN algorithm with a F1 score of 2%.
+
+#### For low-risk.
+- Precision score is 100% (Positive Predictive value PPV)
+- Recall score is 57% (sensitivity). 
+- 57% low-risk are correctly predicted by the SMOTEENN algorithm with a F1 score of 73%.
+
+#### Avg/F1 score of 72% (Marmonic Mean).
 
 <p align="center">Accuracy score for the model.</p>
 <p align="center"><img class="centerImage" src="https://github.com/dalejandri/Credit_Risk_Analysis/blob/main/Resources/11.PNG" /></p>
